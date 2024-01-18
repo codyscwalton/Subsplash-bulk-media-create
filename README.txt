@@ -1,1 +1,3 @@
-This bulk create script was built on a whim to get a client to sign up (hopefully), the client wants to backfill years of content in Subsplash but is currently delivering media via HLS/.m3u8 so the bulk import tool will not work for them. With this script we can bulk create media items in their Dashboard and they an use the bulk edit process to then assign metadata and stream URLs for the content.
+This script serves a couple of different purposes but at the root, it creates x amount of empty media items in a given appkey.
+
+With empty items, you at least have an ID and can use it in the bulk edit process to apply metadata. This could be branched to create items from external sources and pass along existing metadata/files.
